@@ -371,6 +371,7 @@ MEDIA ENDP
 IMPRIME_TABELA PROC 
     ;Aponta BX para DADOS
     LEA BX, DADOS
+    ;Seta o contador em 5, numero de linhas da matriz
     MOV CX, 5
 
     SAIDA_DE_LINHA:
